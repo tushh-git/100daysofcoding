@@ -3,11 +3,24 @@
 <head>
 	<title>Logical OR</title>
 	<script type="text/javascript">
-		var hour = 10;
-		if(hour<11 || hour>18 ) //one value should be true then it will retuen True
-		{
-			alert("Jym is closed");
-		}
+		//This is condition from no value True and Another False
+		var a=20>10; //True
+		var b=10>20; //False
+		
+		var c= a || b ; // a || b = True 
+		alert(c);
+		
+		
+		//This is the condition for both values are False 
+		var d=20>30 ; //False
+		var e=50>60; //False
+		
+		var f= d || e ; // d || e
+		alert(f)
+		
+		/* Every condition is ture if one Value id True in OR condition
+		, if both the value is false then the condition is false .
+		
 	</script>
 </head>
 <body>
