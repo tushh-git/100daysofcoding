@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Breaking the Loop</title>
+	<script type="text/javascript">
+	
+	var sum=0;
+
+	while(true){
+
+	var value = +prompt("Enter a number",'');
+
+	if (!value) break; //(*) The breaking directive started here
+
+	//if the user enters an empty line or cancels the input. It stops the loop immediately
+
+	sum += value;
+
+}
+
+alert('sum:'+ sum);
+	</script>
+</head>
+<body>
+
+</body>
+</html>
