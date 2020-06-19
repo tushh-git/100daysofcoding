@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Grouping of cases</title>
+	<script type="text/javascript">
+		let a = 3;
+
+switch (a) {
+  case 4:
+    alert('Case One!');
+    break;
+
+  case 3: // (*) grouped two cases
+  case 5:
+    alert('case three!');
+    alert("case four");
+    break;
+
+  default:
+    alert('case default');
+}
+
+		
+	</script>
+</head>
+<body>
+
+</body>
+</html>
